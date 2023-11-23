@@ -13,7 +13,7 @@ class Charge {
   BankAccount? _account;
 
   /// Amount to pay in base currency. Must be a valid positive number
-  int amount = 0;
+  double amount = 0.0;
   Map<String, dynamic>? _metadata;
   List<Map<String, dynamic>>? _customFields;
   bool _hasMeta = false;
