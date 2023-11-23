@@ -25,7 +25,7 @@ class ChargeException extends PaystackException {
 }
 
 class InvalidAmountException extends PaystackException {
-  int amount = 0;
+  double amount = 0.0;
 
   InvalidAmountException(this.amount)
       : super('$amount is not a valid '
