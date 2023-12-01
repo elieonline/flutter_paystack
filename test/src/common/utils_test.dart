@@ -1,11 +1,11 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_paystack_pro/src/common/my_strings.dart';
-import 'package:flutter_paystack_pro/src/common/utils.dart';
+import 'package:flutter_paystack/src/common/my_strings.dart';
+import 'package:flutter_paystack/src/common/utils.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   const MethodChannel channel =
-      MethodChannel('plugins.Adminixtrator/flutter_paystack_pro');
+      MethodChannel('plugins.wilburt/flutter_paystack');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

@@ -45,4 +45,4 @@ class MethodCallHandlerImpl(messenger: BinaryMessenger, private val activity: Ac
     }
 }
 
-private const val channelName = "plugins.Adminixtrator/flutter_paystack_pro"
+private const val channelName = "plugins.wilburt/flutter_paystack"

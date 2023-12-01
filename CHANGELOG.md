@@ -1,3 +1,9 @@
+## 2.0.0
+* Migrate flutter_paystack to pro
+* Upgrade intl and http versions
+* Upgrade `sdk` to `2.16.5 > 3.0.0`
+* Change amount type to double
+
 ## 1.0.7
 * Fixed an issue where only one bank showed-up in the banks dropdown
 * Fixed build issues caused by androidx material library
