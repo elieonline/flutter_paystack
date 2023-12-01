@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 
 class Utils {
   static const MethodChannel methodChannel =
-      const MethodChannel('plugins.wilburt/flutter_paystack');
+      const MethodChannel('plugins.Adminixtrator/flutter_paystack_pro_pro');
 
   static String getKeyErrorMsg(String keyType) {
     return 'Invalid $keyType key. You must use a valid $keyType key. Ensure that you '
